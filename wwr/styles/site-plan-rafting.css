@@ -1,0 +1,73 @@
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #273dd2;
+    --secondary-color: #939196;
+    --accent1-color: #d3cad2;
+    --accent2-color: #ffe2fe;
+
+    --heading-font: '_______', serif;
+    --paragraph-font: '_______' serif;
+
+    --nav-background-color: #4156dc;
+    --nav-link-color: #574ae2;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #f9e24d;
+}
+
+body {
+    f_____: var(--paragraph-font);
+    m_____: _____;
+    p_____: _____;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

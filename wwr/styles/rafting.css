@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: 'Newsreader';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/newsreader/v20/cY9kfjOCX1hbuyalUrK439vogqC9yFZCYg7oRdaKP4obnf7fTXglsMyoT-ZA.ttf) format('truetype');
+}
+
+:root {
+    --primary-color: #273dd2;
+    --secondary-color: #939196;
+    --accent1-color: #d3cad2;
+    --accent2-color: #ffe2fe;
+
+    --heading-font: 'Newsreader', serif;
+    --paragraph-font: 'Newsreader', serif;
+
+    --nav-background-color: #4156dc;
+    --nav-link-color: #574ae2;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #f9e24d;
+
+    --heading-color: var(--primary-color); /* Color for headings */
+    --paragraph-color: var(--secondary-color); /* Color for paragraphs */
+    --font-color: var(--accent1-color); /* Color for fonts */
+
+    --social-link-underline: none; /* Remove underlines from social media links */
+}
+
+/* Apply styles to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+
+/* Apply styles to paragraphs */
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+}
+
+/* Apply font color to all fonts */
+body {
+    color: var(--font-color);
+}
+
+/* Remove underlines from social media links */
+.social-link {
+    text-decoration: var(--social-link-underline);
+}
+
+/* Limit the width of the page */
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

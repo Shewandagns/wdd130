@@ -29,36 +29,80 @@
     --social-link-underline: none; /* Remove underlines from social media links */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply font color to all fonts */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--font-color);
+}
+
+main {
+    max-width: 900px;
+    /*margin: 1.5rem auto;
+    text-shadow: 3px 3px 5px #777;*/
+}  
+
 /* Apply styles to headings */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {  
     font-family: var(--heading-font);
     color: var(--heading-color);
+    text-align: left;
 }
 
 /* Apply styles to paragraphs */
 p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color);
-}
-
-/* Apply font color to all fonts */
-body {
-    color: var(--font-color);
-}
+    padding: 25px;
+} 
 
 /* Remove underlines from social media links */
 .social-link {
     text-decoration: var(--social-link-underline);
-}
+} 
 
 /* Limit the width of the page */
-.container {
+.container { 
     max-width: 1200px; /* Adjust as needed */
     margin: 0 auto; /* Center the container */
+} 
+
+.hero{
+    position: relative;
+       
 }
 
-.hero img {
-    display: block;
+.hero img{
+    display:block;
     width: 100%;
+    height: auto;
+}
+.hero h1{
+    position: absolute;
+    top: 40px;
+    left:200px;
+    color:aliceblue;
+}
+
+.hero article {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.301);
+    top: 200px;
+    padding:20px;
+}
+
+.hero article p{
+   color:aquamarine;
+}
+
+.hero article img{
+    float:right;
+    width: 150px;
     height: auto;
 }

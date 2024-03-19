@@ -38,7 +38,7 @@
 /* Apply font color to all fonts */
 body {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto;;
     color: var(--font-color);
 }
 
@@ -92,13 +92,13 @@ p {
 
 .hero article {
     position: absolute;
-    background-color: rgba(0, 0, 255, 0.301);
+    background-color: rgba(0, 0, 200, 0.301);
     top: 200px;
-    padding:20px;
+    padding:10px;
 }
 
 .hero article p{
-   color:aquamarine;
+   color: white;
 }
 
 .hero article img{

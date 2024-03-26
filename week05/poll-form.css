@@ -44,6 +44,7 @@ form {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
+
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
@@ -91,8 +92,6 @@ button {
     padding: .75rem;
     font-size: 1.2rem;
     width: 200px;
-    align-items: center;
-    
 }
 
 button:hover {
